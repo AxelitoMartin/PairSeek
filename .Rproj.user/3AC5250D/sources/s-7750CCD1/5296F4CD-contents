@@ -1,0 +1,27 @@
+
+dataClinical <- read.delim("https://europepmc.org/articles/PMC5732161/bin/41598_2017_17795_MOESM4_ESM.txt",header=T)
+
+y <-   dataClinical$casectrl
+table(y)
+
+dataOTU<-read.delim("https://europepmc.org/articles/PMC5732161/bin/41598_2017_17795_MOESM2_ESM.txt",header=T)
+
+testH <- strsplit(as.character(dataOTU$taxonomy), "__", fixed = FALSE)
+genuslist <- NULL
+for(i in 1:length(testH))  genuslist <- c(genuslist, testH[[i]][7])
+uniquegenus <- unique(genuslist)
+uniquegenus <- uniquegenus[uniquegenus != ";s"]
+
+
+OTUmatrix <- NULL
+for(i in 1:length(uniquegenus)) OTUmatrix <- cbind(OTUmatrix,
+                                                   apply(dataOTU[which(genuslist == uniquegenus[i]) ,2:364], 2, sum))
+colnames(OTUmatrix) <- uniquegenus
+rownames(OTUmatrix) <- colnames(dataOTU)[2:364]
+OTUmatrix <- as.matrix(OTUmatrix[ order(rownames(OTUmatrix)),])
+OTUmatrix <- OTUmatrix[,!grepl("\\[",colnames(OTUmatrix) )]
+OTUmatrix <- OTUmatrix[,apply(OTUmatrix != 0,2, mean) > 0.10]
+
+
+set.seed(100)
+dom.scores<-PairSeekBinary(y,OTUmatrix,LassoIterations=100)

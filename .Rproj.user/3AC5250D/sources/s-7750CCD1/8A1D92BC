@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1615235101169.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8A1D92BC",
+    "lastKnownWriteTime" : 1615244386,
+    "last_content_update" : 1615244386440,
+    "path" : "~/Desktop/GitPerso/PairSeek/vignettes/PairSeek.Rnw",
+    "project_path" : "vignettes/PairSeek.Rnw",
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "sweave"
+}

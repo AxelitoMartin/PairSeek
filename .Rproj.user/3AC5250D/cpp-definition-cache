@@ -1,0 +1,116 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 4,
+                "name" : "Cquantile(Rcpp::NumericVector, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@Cquantile#I#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 15,
+                "name" : "vecmax(Rcpp::NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@vecmax#I#"
+            },
+            {
+                "column" : 5,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 22,
+                "name" : "vecminInd(Rcpp::NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@vecminInd#I#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 30,
+                "name" : "minentropy(Rcpp::NumericVector, Rcpp::IntegerVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@minentropy#I#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 73,
+                "name" : "getpairsOddXOut(Rcpp::NumericMatrix, Rcpp::NumericMatrix, Rcpp::IntegerVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@getpairsOddXOut#I#I#I#I#"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 119,
+                "name" : "getpairsOddXOutRandomOrder(Rcpp::NumericMatrix, Rcpp::NumericMatrix, Rcpp::IntegerVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@getpairsOddXOutRandomOrder#I#I#I#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 194,
+                "name" : "RatioX(Rcpp::NumericMatrix, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@RatioX#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 2,
+                "line" : 227,
+                "name" : "Comparator",
+                "parent_name" : "",
+                "usr" : "c:@S@Comparator"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 7,
+                "line" : 231,
+                "name" : "is_na(double)",
+                "parent_name" : "Comparator",
+                "usr" : "c:@S@Comparator@F@is_na#d#1"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 7,
+                "line" : 241,
+                "name" : "operator(const int, const int)",
+                "parent_name" : "Comparator",
+                "usr" : "c:@S@Comparator@F@operator()#1I#1I#1"
+            },
+            {
+                "column" : 21,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 251,
+                "name" : "avg_rank(Rcpp::NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@avg_rank#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+                "kind" : 6,
+                "line" : 274,
+                "name" : "RankX(Rcpp::NumericMatrix, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@RankX#I#I#"
+            }
+        ],
+        "file" : "/Users/axel/Desktop/GitPerso/PairSeek/src/newpairingOddXoutEntropy.cpp",
+        "file_last_write" : 1615234967.000000
+    }
+]
